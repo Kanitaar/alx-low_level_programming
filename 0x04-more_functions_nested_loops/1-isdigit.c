@@ -1,19 +1,16 @@
 #include "main.h"
 
 /**
- * print_alphabet - print alphabet of letters
- *
- * Return: void
+ * mul - multiplies two integers
+ * @a: int to be multiplied to b
+ * @b: int to be multiplied to a
+ * Return: the result of the operation
  */
-
-void print_alphabet(void)
+int mul(int a, int b)
 {
-	int i;
+	int c;
 
-	for (i = 'a'; i <= 'z'; i++)
+	c = a * b;
 
-	{
-		_putchar(i);
-	}
-	_putchar('\n');
+	return (c);
 }
