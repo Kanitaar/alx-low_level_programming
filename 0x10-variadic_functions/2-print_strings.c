@@ -1,8 +1,8 @@
 /*
  * File: 2-print_strings.c
- * Auth: Tolulope Fakunle
+ * Auth: MbaUdeh Grace
  */
-
+OOB
 #include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
@@ -39,5 +39,5 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 	printf("\n");
 
-	va_end(strings);
+AOA	va_end(strings);
 }
